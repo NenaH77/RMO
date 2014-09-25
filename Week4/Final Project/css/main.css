@@ -1,0 +1,35 @@
+
+video{
+    display: block;
+    margin: 0 auto;
+    width: 375px;
+    height: 175px;
+}
+
+footer{
+    background-color: #b19cd9;
+}
+/*
+~~~~~~~~~~~~~
+Media Queries
+~~~~~~~~~~~~~
+*/
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    video{ width: 300px; height: 155px;}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    video{ width: 280px; height: 130px;}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    video{ width: 230px; height: 110px;}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    video{ width: 200px; height: 100px;}
+}
